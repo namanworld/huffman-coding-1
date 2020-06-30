@@ -21,3 +21,14 @@ The programs can compress and decompress text file consisting of 128 ASCII chara
 
 1. Open file, recreate Huffman Tree based on Huffman Encode Table;
 2. Decode the file based on the tree and store it to the desired file.
+
+***The algorithm serializes the encoded text as a binary/decimal sequence and the corresponding Huffman binary tree in order to be able to decode back the text in the future.***
+
+Here is an example:
+Huffman codes for each character in the given text:
+
+![codes](codes.PNG)
+
+Text encoded in a binary format, decoded text and compression ratio:
+
+![static Huffman](static huffman.PNG)
